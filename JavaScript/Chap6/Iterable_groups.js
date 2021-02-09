@@ -27,20 +27,38 @@ static from (it_obj)
     group.add(element);
     return group;
 }
+[Symbol.iterator] ()
+{
+    return new GroupIteretor(this);
+}
 
 }
 
-let group = Group.from([10, 20]);
-console.log(group.has(10));
-// → true
-console.log(group.has(30));
-// → false
-console.log(group)
+class GroupIteretor 
+{
+    constructor (group)
+    {
+        this.group = group;
+        this.index =0;
+    }
 
-group.add(10);
-console.log(group)
-group.delete(10);
-console.log(group)
+    next()
+    {
+        if (this.index >= this.group.members.length)
+        return {done : true};
+        let result = 
+        {
+            value : this.group.members[this.index] ,
+            done : false
+        }
+        this.index++;
+        return result;
+    }
+}
 
-console.log(group.has(10));
-// → false
+for (let value of Group.from(["a", "b", "c"])) {
+    console.log(value);
+  }
+  // → a
+  // → b
+  // → c
