@@ -9,19 +9,17 @@ function primitiveMultiply(a, b) {
 }
 
 function reliableMultiply(a, b) {
-    for (;;)
-    {
-        try 
-{
-    return primitiveMultiply(a, b); 
-    break;
-}
-catch (e)
-{
-    reliableMultiply(a, b);
-}
-}
-
+//   for (;;) {
+    try {
+      return primitiveMultiply(a, b);
+    //   break;
+    } catch (e) {
+        if (!(e instanceof MultiplicatorUnitFailure))
+        throw e;
+        else 
+        return primitiveMultiply(a, b);
     }
+  }
+// }
 
 console.log(reliableMultiply(8, 8));
