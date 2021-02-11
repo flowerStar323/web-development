@@ -1,5 +1,17 @@
 function withBoxUnlocked (argument){
-    if 
+    try
+    {
+        box.unlock;
+
+    }
+    catch (e)
+    {
+        console.log("Error occured");
+    }
+    finally
+    {
+        box.lock;
+    }
 }
 
 const box = {
