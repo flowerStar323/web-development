@@ -13,10 +13,9 @@ try
 {
     return primitiveMultiply(a, b); 
 }
-catch (Klunk)
+catch (MultiplicatorUnitFailure)
 {
     reliableMultiply(a, b);
-
 }
 }
 
