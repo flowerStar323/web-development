@@ -13,10 +13,10 @@ try
 {
     return primitiveMultiply(a, b); 
 }
-catch
+catch (Klunk)
 {
     reliableMultiply(a, b);
-    
+
 }
 }
 
