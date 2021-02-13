@@ -1,1 +1,1 @@
-let exo1 = 
+let exo1 = /ca[tr]/
