@@ -27,7 +27,9 @@ h2{
 
 /*Task # 4
 Make all input boxes have a 2px solid dark red border (use rgb for this)*/
-
+.loginForm{
+    border: 2px solid rgb(194, 32, 29);
+}
 
 /*Task # 5
 Give a light yellow background to all <p> elements inside of a <div> element
