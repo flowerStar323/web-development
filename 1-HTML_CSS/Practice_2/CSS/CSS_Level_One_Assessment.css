@@ -35,6 +35,9 @@ Make all input boxes have a 2px solid dark red border (use rgb for this)*/
 Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
+div p {
+    background: #e4eb6e;
+}
 
 
 /*Task # 6
