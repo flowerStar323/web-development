@@ -13,14 +13,16 @@ background:#1dc2c2;
 
 /*Task # 2
 Change the h1 to have a 1px solid black border*/
-.h1{
+h1{
     border: 1px solid black;
 }
 
 
 /*Task # 3
 Make all h2 elements the color purple*/
-
+h2{
+    color: purple;
+}
 
 
 /*Task # 4
