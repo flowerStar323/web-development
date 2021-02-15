@@ -8,26 +8,26 @@ span {
 }
 
 table {
-    border-spacing: 10px;
-  }
+  border-spacing: 10px;
+}
 td {
   height: 200px;
   padding: 100px;
   border: 6px solid white;
   border-spacing: 200px;
 }
-#a{
-    background: #264653;
+#a {
+  background: #264653;
 }
-#b{
-    background: #2A9D8F;
+#b {
+  background: #2a9d8f;
 }
-#c{
-    background: #E9C46A;
+#c {
+  background: #e9c46a;
 }
-#d{
-    background:#E9C46A;
+#d {
+  background: #F4A261;
 }
-#e{
-    background: #E76F51;
+#e {
+  background: #e76f51;
 }
