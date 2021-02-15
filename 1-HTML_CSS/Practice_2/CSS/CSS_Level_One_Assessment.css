@@ -45,7 +45,11 @@ There is a textarea element with the id=textblock, give it the following propert
 * A 5px solid gray border
 * A width of 800px and a height of 400px
  */
-
+#textblock{
+    border: 5px solid gray;
+    width: 800px;
+    height: 400px;
+}
 
 
 /*Task # 7
