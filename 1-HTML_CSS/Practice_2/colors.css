@@ -7,12 +7,11 @@ span {
   font-family: "Ballet", cursive;
 }
 
-tab{
-    box-spacing 
-}
+
 td {
   height: 200px;
   padding: 100px;
-  border: 6px solid white;
+  border: 6px solid violet;
+  border-spacing: 4.0em;
 
 }
