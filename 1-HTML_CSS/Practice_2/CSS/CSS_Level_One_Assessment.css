@@ -63,7 +63,10 @@ a{
 /*Task # 8
 Make elements with the id="itemone" have an overline text-decoration.
 and be the color purple.*/
-
+#itemone{
+    text-decoration: overline;
+    color: purple;
+}
 
 /*Task # 9
 Finally, make the elements with the class label "exit" have
