@@ -6,14 +6,16 @@ Watch the video lecture for more info on this! */
 
 /*Task # 1
 Give the body element of the site a light blue background using HEX code*/
-.body{
-background-color:blue;
+body{
+background:#1dc2c2;
 }
 
 
 /*Task # 2
 Change the h1 to have a 1px solid black border*/
-
+.h1{
+    border: 1px solid black;
+}
 
 
 /*Task # 3
