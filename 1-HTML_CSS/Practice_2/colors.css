@@ -2,5 +2,8 @@ h1{
 border: 3px;
 color: aqua;
 text-align: center;
-font-family: 'Ballet', cursive;
+
+}
+span{
+    font-family: 'Ballet', cursive;
 }
