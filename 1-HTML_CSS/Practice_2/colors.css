@@ -1,9 +1,10 @@
 h1 {
-  border: 3px;
-  color: aqua;
+  border: 3px;  
   text-align: center;
+  margin: auto;
 }
 span {
+    color: aqua;
   font-family: "Ballet", cursive;
 }
 
