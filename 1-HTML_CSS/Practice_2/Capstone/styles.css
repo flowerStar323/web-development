@@ -1,7 +1,14 @@
-body{
-    background-color: #011627;
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat';
-    
+body {
+  background-color: #011627;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+  border: 60px solid #2ec4b6;
+  border-top: 0px;
+}
+p {
+  color: #fdfffc;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
