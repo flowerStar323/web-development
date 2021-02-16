@@ -1,7 +1,7 @@
 var prenom = prompt("Welcome to the site !\n Entrer your name :")
 var nom = prompt("Enter surname :")
 var age = prompt("Enter age : ")
-var height = prompt("Enter height :")
+var height = prompt("Enter height in cm :")
 var alias = prompt("Enter alias :")
 
-if ((prenom[0]==nom[0])&& (age>20 && age<30) && height)
+if ((prenom[0]==nom[0]) && (age>20 && age<30) && (height >170) )
