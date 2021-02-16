@@ -1,1 +1,1 @@
-var prenom = prompt("Welcom to the ")
+var prenom = prompt("Welcome to the site \n ")
