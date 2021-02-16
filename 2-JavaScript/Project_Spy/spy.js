@@ -4,4 +4,4 @@ var age = prompt("Enter age : ")
 var height = prompt("Enter height :")
 var alias = prompt("Enter alias :")
 
-if ((prenom[0]==nom[0])&& (age>))
+if ((prenom[0]==nom[0])&& (age>20 && age<30) && height)
