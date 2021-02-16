@@ -4,7 +4,7 @@ var age = prompt("Enter age : ")
 var height = prompt("Enter height in cm :")
 var alias = prompt("Enter alias :")
 
-if ((prenom[0]==nom[0]) && (age>20 && age<30) && (height>170) (alias.slice(-1)=="y"))
+if ((prenom[0]==nom[0]) && (age>20 && age<30) && (height>170) && (alias.slice(-1)=="y"))
 {
     console.log("Welcome to the club!")
 }
