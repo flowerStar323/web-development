@@ -12,7 +12,7 @@
 //     console.log("R.A.S")
 // }
 
-if (height>0)
+if (height>170)
 {
     console.log("ok")
 }
