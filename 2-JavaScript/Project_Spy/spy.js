@@ -1,1 +1,1 @@
-var prenom = prop
+var prenom = prompt("W")
