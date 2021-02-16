@@ -12,3 +12,7 @@ p {
   padding-left: 20%;
   padding-right: 20%;
 }
+#button{
+    color: yellow;
+    border-radius: 20px;
+}
