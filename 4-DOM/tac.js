@@ -1,3 +1,3 @@
 console.log("Connected");
 
-else
+var case = doc
