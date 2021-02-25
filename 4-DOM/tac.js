@@ -5,5 +5,6 @@ var cases = document.querySelectorAll(td);
 
 function clearBoard() 
 {
-    forff
+    for(let i= 0 ; i <=cases.length;i++)
+    cases[i]=""
 }
