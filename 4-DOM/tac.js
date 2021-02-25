@@ -1,4 +1,4 @@
 
 //console.log("Connected");
 
-var case = document.querySelectorAll ()
+var case = document.querySelectorAll(td);
