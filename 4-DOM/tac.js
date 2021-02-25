@@ -9,3 +9,5 @@ function clearBoard()
     cases[i].textContent= ''
 }
 restart.addEventListener("click",clearBoard);
+
+function pla
