@@ -21,6 +21,6 @@ function Play()
 }
 for(let i= 0 ; i <cases.length;i++)
 {
-    cases.length.addEventListener('click',Play)
+    cases.addEventListener('click',Play)
 }
     
