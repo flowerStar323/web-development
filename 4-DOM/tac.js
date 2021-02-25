@@ -1,3 +1,3 @@
 console.log("Connected");
 
-var case = doc
+var case = document.querySelector()
