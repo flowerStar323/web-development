@@ -5,5 +5,5 @@ var cases = document.querySelectorAll(td);
 
 function clearBoard() 
 {
-    
+    forff
 }
