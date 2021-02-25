@@ -10,4 +10,17 @@ function clearBoard()
 }
 restart.addEventListener("click",clearBoard);
 
-function pla
+function Play()
+{
+    if (this.textContent === "")
+    this.textContent = 'X'
+    else if (this.textContent === "X")
+    this.textContent = 'O'
+    else 
+    this.textContent = '';
+}
+for(let i= 0 ; i <cases.length;i++)
+{
+    C
+}
+    
