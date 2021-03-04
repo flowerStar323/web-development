@@ -1,1 +1,1 @@
-Player_1=input("Enter the name for player 1 (Red)")
+var player_1=prompt("Enter the name for player 1 (Red)")
