@@ -122,3 +122,4 @@ def fix_teen(n):
 
 def count_evens(nums):
   # CODE GOES HERE
+  filter(lambda n:n%2,nums)
