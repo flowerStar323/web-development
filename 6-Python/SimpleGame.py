@@ -29,7 +29,8 @@ print(digits[:3])
 
 # Another hint:
 guess = input("What is your guess? \n")
-print(guess)
+print(list(guess))
+
 
 # Think about how you will compare the input to the random number, what format
 # should they be in? Maybe some sort of sequence? Watch the Lecture video for more hints!
