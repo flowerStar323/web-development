@@ -105,8 +105,15 @@ def doubleChar(str):
 
 def no_teen_sum(a, b, c):
   # CODE GOES HERE
+  return fix_teen(a)+fix_teen(b)+fix_teen(c)
 def fix_teen(n):
   # CODE GOES HERE
+  if (n>13 and n<19 and n!=15 and n!=16):
+    return n
+  else:
+    return 0
+    
+
 
 #####################
 ## -- PROBLEM 6 -- ##
