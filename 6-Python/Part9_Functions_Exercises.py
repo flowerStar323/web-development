@@ -39,6 +39,7 @@ def arrayCheck(nums):
 
 def stringBits(str):
   # CODE GOES HERE
+  print(str[::2])
 
 
 #####################
