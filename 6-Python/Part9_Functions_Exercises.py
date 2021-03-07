@@ -61,6 +61,9 @@ def stringBits(str):
 
 def end_other(a, b):
   # CODE GOES HERE
+  end = a[-3:].lower()
+  
+
 
 #####################
 ## -- PROBLEM 4 -- ##
