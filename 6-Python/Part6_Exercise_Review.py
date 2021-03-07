@@ -45,7 +45,9 @@ print(l)
 
 d1 = {'simple_key':'hello'}
 print(d1.get("simple_key"))
+
 d2 = {'k1':{'k2':'hello'}}
+print(d2['k1']['k2'])
 
 d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
 
