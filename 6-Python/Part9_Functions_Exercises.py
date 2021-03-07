@@ -22,6 +22,8 @@
 
 def arrayCheck(nums):
     # CODE GOES HERE
+    return [1,2,3] in nums
+
 
 
 #####################
