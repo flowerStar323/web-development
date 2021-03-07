@@ -62,7 +62,7 @@ def stringBits(str):
 def end_other(a, b):
   # CODE GOES HERE
   end = a[-3:].lower()
-  
+  return a == b
 
 
 #####################
@@ -78,7 +78,7 @@ def end_other(a, b):
 
 def doubleChar(str):
   # CODE GOES HERE
-
+  print([ii for i in str]) 
 
 #####################
 ## -- PROBLEM 5 -- ##
