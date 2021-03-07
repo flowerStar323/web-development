@@ -29,7 +29,7 @@ print(digits[:3])
 
 # Another hint:
 guess = input("What is your guess? \n")
-print(list(guess))
+print(list(int(guess)))
 
 
 # Think about how you will compare the input to the random number, what format
