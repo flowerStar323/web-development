@@ -31,7 +31,6 @@ print(digits[:3])
 guess = input("What is your guess? \n")
 inp =list(guess)
 guess= [int(i) for i in inp]
-print (guess)
 
 
 # Think about how you will compare the input to the random number, what format
