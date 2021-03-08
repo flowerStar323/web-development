@@ -32,7 +32,10 @@ print(computer)
 guess = input("What is your guess? \n")
 inp =list(guess)
 guess= [int(i) for i in inp]
-if guess in 
+
+def check(user,comp):
+    if (user[0]==comp[0] and (user[1]==comp[1] and user[2]==comp[2]):
+        print("")
 
 # Think about how you will compare the input to the random number, what format
 # should they be in? Maybe some sort of sequence? Watch the Lecture video for more hints!
