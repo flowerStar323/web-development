@@ -14,7 +14,7 @@ $('.board button').on('click',function(){
   // This is the Row Number:
   console.log("This is the Row:");
   console.log($(this).closest("tr").index());
-  console.log('\n');
+  console.log('\n ');
   // This is a way to grab a particular cell (replace):
   // $('table').eq(rowIndex).find('td').eq(colIndex)
 });
