@@ -22,20 +22,33 @@
 # Here are some useful hints:
 
 # Try to figure out what this code is doing and how it might be useful to you
+
 import random
 digits = list(range(10))
 random.shuffle(digits)
 computer =digits[:3]
 print(computer)
 
-# Another hint:
-guess = input("What is your guess? \n")
-inp =list(guess)
-guess= [int(i) for i in inp]
+def userGuess():
+    guess = input("What is your guess? \n")
+    inp =list(guess)
+    guess= [int(i) for i in inp]
+    return guess
 
 def check(user,comp):
-    if (user[0]==comp[0] and (user[1]==comp[1] and user[2]==comp[2]):
-        print("")
+    if (user == comp):
+        print("You won!")
+        return 1
+    for i in user:
+        if i in comp :
+            print("Close!Try again")
+            return 2
+    print("Nope")
+    return 0
+win =0      
+while (win!=1):
+    user = userGuess()
+    win =  check(user,computer)     
 
 # Think about how you will compare the input to the random number, what format
 # should they be in? Maybe some sort of sequence? Watch the Lecture video for more hints!
