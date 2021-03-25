@@ -85,7 +85,7 @@ end_other('AbC', 'HiaBc')
 
 def doubleChar(str):
   # CODE GOES HERE
-  print([ii for i in str]) 
+  print([i for i in str]) 
 
 doubleChar('The') 
 
