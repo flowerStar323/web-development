@@ -122,7 +122,7 @@ def fix_teen(n):
   else:
     return n
 
-no_teen_sum(2, 13, 1)
+no_teen_sum(1, 2, 3)
 
 
 #####################
@@ -139,4 +139,6 @@ no_teen_sum(2, 13, 1)
 
 def count_evens(nums):
   # CODE GOES HERE
-  filter(lambda n:n%2,nums)
+  print (list(filter(lambda n:n%2,nums)))
+
+count_evens([2, 1, 2, 3, 4])
