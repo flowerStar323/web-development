@@ -23,9 +23,10 @@
 def arrayCheck(nums):
     # CODE GOES HERE
     s = ''.join(str(i) for i in nums)
-    print (s)
+    print ('123'in s)
+    
 
-arrayCheck([1, 1, 2, 1, 2, 3]) 
+arrayCheck([1, 1, 2, 4, 1])
 
 #####################
 ## -- PROBLEM 2 -- ##
