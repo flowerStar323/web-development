@@ -24,7 +24,7 @@ def arrayCheck(nums):
     # CODE GOES HERE
     return [1,2,3] in nums
 
-
+arrayCheck([1, 1, 2, 1, 2, 3]) 
 
 #####################
 ## -- PROBLEM 2 -- ##
