@@ -139,6 +139,6 @@ no_teen_sum(1, 2, 3)
 
 def count_evens(nums):
   # CODE GOES HERE
-  print (list(filter(lambda n:n%2 =1,nums)))
+  print (len((list(filter(lambda n:n%2 ==0,nums)))))
 
 count_evens([2, 1, 2, 3, 4])
