@@ -22,7 +22,8 @@
 
 def arrayCheck(nums):
     # CODE GOES HERE
-    print( [1,2,3] in nums)
+    s = ''.join(str(i) for i in nums)
+    print (s)
 
 arrayCheck([1, 1, 2, 1, 2, 3]) 
 
