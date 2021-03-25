@@ -83,9 +83,12 @@ end_other('AbC', 'HiaBc')
 # doubleChar('AAbb') → 'AAAAbbbb'
 # doubleChar('Hi-There') → 'HHii--TThheerree'
 
-def doubleChar(str):
-  # CODE GOES HERE
-  print([i for i in str]) 
+def doubleChar(stre):
+  s = ''
+  for i in stre:
+    s.append(i)
+    s.append(i)
+  print(s)
 
 doubleChar('The') 
 
