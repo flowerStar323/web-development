@@ -86,8 +86,7 @@ end_other('AbC', 'HiaBc')
 def doubleChar(stre):
   s = ''
   for i in stre:
-    s.append(i)
-    s.append(i)
+    s += i*2
   print(s)
 
 doubleChar('The') 
@@ -122,7 +121,8 @@ def fix_teen(n):
     return n
   else:
     return 0
-    
+
+no_teen_sum(2, 13, 1) 
 
 
 #####################
