@@ -45,6 +45,8 @@ def stringBits(str):
   # CODE GOES HERE
   print(str[::2])
 
+stringBits('Heeololeo') 
+
 
 #####################
 ## -- PROBLEM 3 -- ##
