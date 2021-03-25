@@ -87,6 +87,8 @@ def doubleChar(str):
   # CODE GOES HERE
   print([ii for i in str]) 
 
+doubleChar('The') 
+
 #####################
 ## -- PROBLEM 5 -- ##
 #####################
