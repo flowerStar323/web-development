@@ -42,7 +42,6 @@ arrayCheck([1, 1, 2, 4, 1])
 # stringBits('Heeololeo') → 'Hello'
 
 def stringBits(str):
-  # CODE GOES HERE
   print(str[::2])
 
 stringBits('Heeololeo') 
@@ -66,9 +65,11 @@ stringBits('Heeololeo')
 
 
 def end_other(a, b):
-  # CODE GOES HERE
-  end = a[-3:].lower()
-  return a == b
+  a = a.lower()
+  b = b.lower()  
+  print( a.endswith(b) or b.endswith(a))
+
+end_other('AbC', 'HiaBc')
 
 
 #####################
