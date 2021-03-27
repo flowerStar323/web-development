@@ -57,10 +57,21 @@ class Hand:
     This is the Hand class. Each player has a Hand, and can add or remove
     cards from that hand. There should be an add and remove card method here.
     '''
-    def draw (self,deck1):
-        d=deck1[0]
-        del deck1(0)
-        return d
+    
+    def __init__(self,cards):
+        self.cards = cards
+    
+    def remove_card (self):        
+        print('Removed a card')
+        return self.pop()
+
+
+    def __str__(self):
+        return "Contains {} cards".format(len(self.cards))
+
+    def add(self,added_cards):
+        print("Added {} cards".format(len(added_cards)))
+        self.cards.extend(added_cards)
 
 
 class Player:
