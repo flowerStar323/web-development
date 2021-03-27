@@ -40,7 +40,7 @@ class Deck:
     have a method for splitting/cutting the deck in half and Shuffling the deck.
     """
     def __init__(self):
-        self.cards=[(s,r) for r in RANKS and s in SUITE]
+        self.cards=[(s,r) for r in RANKS for s in SUITE]
         print("Deck has been created")
 
     def shuffle (self):
@@ -62,12 +62,12 @@ class Hand:
         self.cards = cards
     
     def remove_card (self):        
-        print('Removed a card')
         return self.pop()
 
 
     def __str__(self):
-        return "Contains {} cards".format(len(self.cards))
+        # return "Contains {} cards".format(len(self.cards))
+        return len(self.cards)
 
     def add(self,added_cards):
         print("Added {} cards".format(len(added_cards)))
@@ -79,20 +79,36 @@ class Player:
     This is the Player class, which takes in a name and an instance of a Hand
     class object. The Payer can then play cards and check if they still have cards.
     """
-    pass
+    def __init__(self,name,hand):
+        self.hand = hand
+        self.name = name
 
+    def play(self):
+        r=self.hand.remove_card()
+        print('{} played {}'.format(self.name,r))
+    
+    def HasCards(self):
+        return len(self.hand) != 0
+
+    
 
 ######################
 #### GAME PLAY #######
 ######################
 print("Welcome to War, let's begin...")
 
-# Use the 3 classes along with some logic to play a game of war!
+# Setting up the game
+Start = Deck()
+Start.shuffle()
+Comp,player=Start.split()
 
-card = [(s,r) for r in RANKS for s in SUITE]
-print(card)
-print()
-shuffle(card)
-print(card)
-del card[0]
-print(card)
+name = input("What is your name player? ")
+Computer = Player('Computer',Comp)
+User = Player(name,player)
+tour =0
+while Computer.HasCards() and User.HasCards():
+    if (tour%2 == 0):
+        User.play()
+    else :
+        Computer.play()
+
